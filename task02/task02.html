@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务二：零基础HTML及CSS编码（一）</title>
+	<style type="text/css">
+		body{background-color: #dedede;
+			font-size: 15px;
+			margin: 0;}
+		.header{background-color: #333;
+			height: 60px;
+			width: 100%;}
+		.logo{margin-left: 40px;
+			line-height: 60px;
+			vertical-align: middle;}
+		.nav{float: right;
+			line-height: 60px;}
+		.nav ul{/*display: inline-block;*/
+			/*float: right;*/
+			margin-top: 0;
+			margin-bottom: 0;}
+		.nav li{/*display: inline-block;*/
+			vertical-align: middle;
+			text-align: right;
+			margin-right: 20px;
+			float: left;
+			}
+		.nav li a:link{text-decoration: none;
+			color: white;}
+		.nav li a:visited{color: #9ca5ae;}
+		.content{margin: 20px;
+			padding: 0.1px 35px 40px 20px;/*不能设置为0,如果为0,siderbar的margin将填充*/
+			background-color: white;
+			box-shadow: 3px 3px grey;}
+		.content h1{font-size: 20px;
+			padding-top: 40px;}
+		.content h2{font-size: 15px;
+			color: #706778;}
+		.content div{font-size: 13px;
+			color: #b5b0b4;}
+		.content p{text-indent: 2em;
+			line-height: 30px;}/*计算行高http://www.studyofnet.com/news/273.html*/
+		.content dl{border: 1px solid #cbcbcb;
+			width: 125px;
+			margin-left: 60px;
+			text-align: center;}
+		.content dd{margin-left: 0;
+			vertical-align: middle;}
+		.content li{line-height: 30px;
+			font-weight: bold;}
+		.content .table{margin: 0;
+			text-indent: 0;
+			font-weight: bolder;}
+		.content table{width: 100%;
+			border-collapse: collapse;
+			border: 2px solid #ccc;/*border-width只对外边框有效*/
+			/*border-color: #ccc;坑!!!*/
+			line-height: 30px;}
+		.content th{background-color: #333;
+			color: white;
+			text-align: left;}
+		.content tfoot{background-color: #ccc;
+			font-weight: bold;}
+		.content .siderbar{margin: 20px;
+			border-left: 3px solid #ccc;
+			padding: 10px;
+			font-weight: bold;
+			color: black;}
+		.content form{/*margin: 0 0 0 220px;*/
+			font-size: 12px;
+			line-height: 30px;}
+		.content form p{padding: 10px 0 30px 218px;
+			margin: 0;
+			color: #b5b0b4;}
+		.content label{text-align: right;
+			float: left;
+			width: 220px;
+			padding-right: 20px;
+			}/*注意此处*/
+		.content .sex{float: none;
+			padding-right: 0;}
+		.content .hobby{float: none;
+			padding-right: 0;}
+		.content textarea{width: 80%;}
+		.content input[type="submit"]{
+			background-color: #3355d0;
+			color: white;
+			border: 0;
+			height: 40px;
+			width: 100%;
+			border-radius: 10px;}
+		.footer{height: 70px;
+			width: 100%;
+			background-color: black;}
+		.footer div{color: white;
+			line-height: 70px;
+			text-align: center;}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<img class="logo" src="logo.png" alt="baidu-logo">
+		<div class="nav">
+			<ul>
+				<li><a href="#">导航链接一</a></li>
+				<li><a href="#">导航链接二</a></li>
+				<li><a href="#">导航链接三</a></li>
+				<li><a href="#">导航链接四</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="content">
+		<h1>文章一级标题</h1>
+		<h2>文章二级标题</h2>
+		<div>文章作者 文章发表时间</div>
+		<p>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落<br>
+		这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,<a href="#">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落</p>
+		<img src="1.jpg" alt="abc">
+		<p>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落<br>
+		这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,<a href="#">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落</p>
+	</div>
+	<div class="content">
+		<h1>文章一级标题</h1>
+		<h2>文章二级标题</h2>
+		<div>文章作者 文章发表时间</div>
+		<p>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落<br>
+		这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,<a href="#">这里有一个链接接到http://ife.baidu.com</a>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落</p>
+		<div><img src="1.jpg" alt="abc"></div>
+		<ul>
+			<li>列表项目一</li>
+			<li>列表项目二</li>
+			<li>列表项目三</li>
+		</ul>
+	</div>
+	<div class="content">
+	<h1>图片</h1>
+	<dl>
+		<dd>好看的图片</dd>
+		<dd><img src="1.jpg" alt="好看的图片"></dd>
+	</dl>
+	<dl>
+		<dd>好看的图片</dd>
+		<dd><img src="1.jpg" alt="好看的图片"></dd>
+	</dl>
+		<dl>
+		<dd>好看的图片</dd>
+		<dd><img src="1.jpg" alt="好看的图片"></dd>
+	</dl>
+	<dl>
+		<dd>好看的图片</dd>
+		<dd><img src="1.jpg" alt="好看的图片"></dd>
+	</dl>
+	<dl>
+		<dd>好看的图片</dd>
+		<dd><img src="1.jpg" alt="好看的图片"></dd>
+	</dl>
+	</div>
+	<div class="content">
+		<h1>最后一篇文章一级标题</h1>
+		<h2>文章二级标题</h2>
+		<div>文章作者 文章发表时间</div>
+		<ol>
+			<li>排名1</li>
+			<li>排名2</li>
+			<li>排名3</li>
+		</ol>
+		<p class="table">下面是一个表格,给表格加了一个border="1"好让你看出是一个表格</p>
+		<table border="1">
+			<thead>
+				<tr>
+				<th>表头</th>
+				<th>表头</th>
+				<th>表头</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>总计</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+	<div class="content">
+	<div class="siderbar">这里以后是一个侧栏,这里是侧栏的标题</div>
+	<form action="#" name="register">
+		<label for="email">请输入邮箱地址:</label><input type="email" name="email-input" id="email" value="这是一个文本输入框">
+		<p>邮箱地址请按要求格式输入</p>
+		<label for="password">请输入密码:</label><input type="password" name="passwd" id="password" value="这是一个文本输入框"><br>
+		<label for="password-repick">请重复输入密码:</label><input type="password" name="passwd-repick" id="password-repick" value="这是一个文本输入框">
+		<p>密码请为6-16位英文数字</p>
+		<label for="male">性别:</label>
+		<input type="radio" name="sex" id="male" checked value="male"><label for="male" class="sex">男</label>
+		<input type="radio" name="sex" id="female" value="female"><label for="female" class="sex">女</label><br>
+		<label for="city">城市:</label>
+		<select name="city" id="city">
+			<option value="bj">北京</option>
+			<option value="sh">上海</option>
+			<option value="gz">广州</option>
+		</select><br>
+		<label>爱好:</label>
+		<input type="checkbox" id="y" name="hobby"><label for="y" class="hobby">运动</label>
+		<input type="checkbox" id="yi" name="hobby"><label for="yi" class="hobby">艺术</label>
+		<input type="checkbox" id="k" name="hobby"><label for="k" class="hobby">科学</label><br>
+		<label for="person">个人描述:</label>
+		<textarea name="talk" id="person" cols="20" rows="5">这是一个多行输入框,输入您的个人描述</textarea>
+		<input type="submit" value="确认提交">
+	</form>
+	</div>
+	<div class="footer">
+	<div>版权所有&copy;</div>
+	</div>
+</body>
+</html>
