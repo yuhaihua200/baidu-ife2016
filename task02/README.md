@@ -1,4 +1,4 @@
-[**task1-2 Demo**]
+[**task02 Demo**](https://yuhaihua200.github.io/baidu-ife2016/task02/task02.html)
 
 # 任务二：零基础HTML及CSS编码（一）
 
