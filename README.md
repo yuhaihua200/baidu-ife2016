@@ -7,7 +7,8 @@
 - [x] [任务三：HTML、CSS布局入门，三栏式布局的实践]
 (https://yuhaihua200.github.io/baidu-ife2016/task03/task03.html)
 
-- [ ] 任务四：HTML、CSS布局深入，定位和居中问题的实践
+- [x] [任务四：HTML、CSS布局深入，定位和居中问题的实践]
+(https://yuhaihua200.github.io/baidu-ife2016/task04/task04.html)
 
 - [ ] 任务五：基于任务1的HTML代码，实现一个稍微复杂的CSS代码编写
 
